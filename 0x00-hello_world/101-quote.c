@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
@@ -10,7 +10,8 @@
 
 int main(void)
 {
-	printf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	write(2, msg, sizeof(msg) - 1);
 	return (0);
 }
 
