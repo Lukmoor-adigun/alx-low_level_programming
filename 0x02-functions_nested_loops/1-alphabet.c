@@ -1,11 +1,8 @@
-#include <stdio.h>
-
-/* function prototype */
-int _putchar(char c);
+#include "main.h"
 
 /**
- * print_alphabet - Entry point
- * Description: Prints lowercase alphabets
+ * print_alphabet -Print lower case alphabets
+ *
  * Return: return alphabets
  */
 
@@ -19,26 +16,5 @@ void print_alphabet(void)
 	} while (letter <= 'z');
 
 	_putchar('\n');
-}
-
-/**
- * _putchar - function prototype
- * Return: always return putchar
- */
-
-int _putchar(char c)
-{
-	return (putchar(c));
-}
-
-/**
- * main - calls print_alphabt function
- * Return: always return 0
- */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
 
