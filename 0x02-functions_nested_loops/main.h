@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /* Function prototypes */
-int print_last_digit(int n);
+void print_alphabet(void);
 int _putchar(char c);
 
 #endif /* MAIN_H */
