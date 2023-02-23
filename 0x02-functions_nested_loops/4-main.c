@@ -13,14 +13,17 @@ int main(void)
 	if (_isalpha(c))
 	{
 		_putchar(c);
-		_putchar('f');
+		_putchar('e');
+		_putchar('G');
 	}
 	else
 	{
 		_putchar(c);
 		_putchar('o');
+		_putchar('K');
 	}
 	
 	_putchar('\n');
 	return (0);
 }
+
