@@ -3,10 +3,13 @@
 /**
  * print_sign - function that prints sign of a number n
  *
+ * n: parameter value
+ *
  * Return: 1 and prints + if n is greater than zero
  * 0 and prints 0 if n is zero
  * -1 and prints - if n is less than zero
  */
+
 
 int print_sign(int n)
 {
@@ -25,7 +28,6 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	
 	_putchar(',');
 	return (0);
 }
