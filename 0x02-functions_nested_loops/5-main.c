@@ -7,7 +7,12 @@
 
 int main(void)
 {
-	print_sign(10);
+	int r;
+
+	r = print_sign(10);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
 	return (0);
 }
 
