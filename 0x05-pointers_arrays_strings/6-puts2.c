@@ -11,7 +11,7 @@ void _putchar(char c);
 /**
  * puts2 - reverse a string
  *
- * @s: The string to print
+ * @str: The string to print
  */
 
 void puts2(char *str)
