@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * _strcopy - copies the string pointed by src, including
  * the terminating null byte (\0), to the buffer pointed to by 
