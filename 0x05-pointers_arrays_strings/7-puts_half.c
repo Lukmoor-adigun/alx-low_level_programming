@@ -10,7 +10,7 @@
 
 void _putchar(char c);
 /**
- * puts-half - prints the second half of a string followed by new line
+ * puts_half - prints the second half of a string followed by new line
  *
  * @str: The string to print
  */
