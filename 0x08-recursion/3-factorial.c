@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * factorial - prints factorial of a given number
- * @n; number of factorial to print
+ * @n: number of factorial to print
  *
  * Return: facorial
  */
