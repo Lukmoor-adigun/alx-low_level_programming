@@ -3,7 +3,7 @@
  * main - program that prints number of arguments passed int it
  * @argc: command line argument
  * @argv: pointer to array to store the strings in argc
- * result: 0 on succes
+ * return: 0 on succes
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
