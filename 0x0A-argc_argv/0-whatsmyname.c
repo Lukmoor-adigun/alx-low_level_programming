@@ -4,7 +4,7 @@
  *
  * Return: 0 on success.
  */
-int main()
+int main(void)
 {
 	printf("The value of argc is %d", 5);
 	return (0);
